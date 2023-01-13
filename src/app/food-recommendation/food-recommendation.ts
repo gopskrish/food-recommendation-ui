@@ -3,7 +3,8 @@ import { Component } from '@angular/core';
 import { Hero } from '../food';
 
 @Component({
-  templateUrl: './food-recommentation.html',
+  selector: 'food-recommendation-form',
+  templateUrl: './food-recommendation.html',
 })
 export class FoodRecomedation {
   powers = ['Really Smart', 'Super Flexible', 'Super Hot', 'Weather Changer'];
